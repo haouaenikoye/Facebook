@@ -1,0 +1,345 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: #E7ECF4;
+}
+
+header{
+	background: #415e9b;
+	height: 2.2cm;
+	position: relative;
+	bottom: 30px;
+}
+
+@font-face{
+	font-family: 'ptsans';
+	src: url(PTSans-Bold.ttf);
+	font-style: normal;
+}
+
+@font-face{
+	font-family: 'lato';
+	src: url(Lato-Bold.ttf);
+	font-style: normal;
+}
+
+@font-face{
+	font-family: 'latoregular';
+	src: url(Lato-Regular.ttf);
+	font-style: normal;
+}
+
+
+input{
+	outline: none;
+}
+
+.input{
+	display: flex;
+	float: right;
+	margin-right: 182px;
+	position: relative;
+	bottom: 67px;
+}
+
+.formulaire2{
+	color: white;
+	font-family: arial;
+	font-size: 12px;
+	margin-left: 14.2px;
+}
+
+.formulaire{
+	color: white;
+	font-size: 12px;
+	font-family: arial;
+}
+
+#LogIn{
+	color: white;
+	background: #5077bf;
+	border: 1px solid #29487c;
+	border-radius: 2px 2px 2px 2px;
+	padding: 4px;
+	margin-top: 15px;
+	margin-left: 24px;
+	font-weight: bold;
+}
+
+#name, #pass{
+	border: 1px solid #1d2a5b;
+	width: 3.888cm;
+	height: 20px;
+	margin-top: 5.7px;
+}
+
+.fill{
+	position: relative;
+	bottom: 7px;
+}
+
+#contenu{
+	display: flex;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%);
+}
+
+.deux{
+	margin-left: 50px;
+}
+
+/*first*/
+
+.premiere{
+	color: #333333;
+	font-family: helvetica;
+	width: 15cm;
+	font-size: 14px;
+	margin-top: 18px;
+	line-height: 25px;
+	position: relative;
+	left: 88px;
+	background: fixed;
+}
+
+.premiere img{
+	height: 62px;
+	width: 62px;
+	position: relative;
+	top: 25px;
+	right: 13px;
+}
+
+.phrase{
+	font-size: 17px;
+	position: relative;
+	right: 40px;
+	bottom: 20px;
+}
+
+.see{
+	font-weight: bold;
+
+}
+
+.hs{
+	color: #90949b;
+	font-weight: lighter;
+}
+
+h2{
+	position: relative;
+	right: 45px;
+}
+
+.entete h1{
+	font-size: 43.6px;
+	color: white;
+	font-family: ptsans;
+	font-weight: bold;
+	margin-left: 206px;
+	position: relative;
+	top: 20px;
+}
+
+label{
+	position: relative;
+	bottom: 3.6px;
+}
+
+.forgot{
+	color: #8ea6ce;
+	position: relative;
+	top: 5px;
+}
+
+.forgot a{
+	color: inherit;
+	text-decoration: none;
+}
+
+.forgot a:hover{
+	text-decoration: underline;
+}
+
+
+/*second*/
+
+.deux{
+	font-family: latoregular;
+	position: relative;
+	bottom: 30px;
+	left: 25px;
+	width: 12cm;
+}
+
+.deux h1{
+	font-family: lato;
+}
+
+.always{
+	font-size: 16px;
+	position: relative;
+	bottom: 35px;
+}
+
+.inputtype{
+	position: relative;
+	bottom: 35px;
+}
+
+#firstname, #lastname{
+	position: relative;
+	border: 1px solid #adbace;
+	width: 5cm;
+	height: 35px;
+	border-radius: 4px 4px 4px 4px;
+	margin: 4px;
+	font-size: 17px;
+}
+
+#mobile, #motdepasse{
+	width: 10.4cm;
+	height: 35px;
+	border: 1px solid #adbace;
+	border-radius: 4px 4px 4px 4px;
+	margin-bottom: -7px;
+	margin-left: 3.7px;
+	position: relative;
+	bottom: 47px;
+	font-size: 17px;
+}
+
+#firstname::placeholder, 
+#lastname::placeholder, 
+#mobile::placeholder, 
+#motdepasse::placeholder{
+	color: #9c9fad;
+}
+
+.birgen{
+	position: relative;
+	bottom: 35px;
+}
+
+.genderb{
+	color: #7f8693;
+	font-weight: bold;
+}
+
+select{
+	margin-top: 8px;
+	background-color: white;
+	width: 50px;
+	height: 25px;
+}
+
+.genbir{
+	position: relative;
+	bottom: 43px;
+}
+
+.genbir input{
+	margin-top: 18px
+}
+
+label{
+	position: relative;
+	top: 2px;
+}
+
+.condition{
+	font-size: 12px;
+	position: relative;
+	bottom: 40px;
+}
+
+.color{
+	color: #385898;
+}
+
+.SignUp{
+	font-family: lato;
+	color: white;
+	font-size: 22px;
+	text-shadow: 2px 2px 3px gray;
+	border: 1px solid black;
+	border: 1px solid #3A6E21;
+	border-radius: 4px 4px 4px 4px;
+	background: #5ea03d;
+	padding: 5px;
+	width: 5cm;
+	position: relative;
+	bottom: 35px;
+}
+
+.dernier{
+	color: #3c3c3d;
+	font-size: 14px;
+	position: relative;
+	bottom: 12px;
+}
+
+.deux img{
+	height: 15px;
+	width: 25px;
+	opacity: 50%;
+	margin-left: 10px;
+}
+
+/*media quieries*/
+
+@media screen and (max-width: 960px) {
+
+	.entete h1{
+		position: relative;
+		right: 45px;
+	}
+
+}
+
+/*deuxieme media queries*/
+
+@media screen and (max-width: 850px) {
+
+
+	header{
+		
+		height: 3.8cm;	
+	}
+
+	
+
+	#conteneur{
+		display: inline-block;
+	}
+
+	
+
+	.phrase{
+		font-size: 14px;
+		position: relative;
+		right: 20px;
+		bottom: 10px;
+	}
+
+	.deux{
+		font-family: latoregular;
+		position: absolute;
+		top: 12cm;
+		margin-right: 10cm;
+		width: 12cm;
+	}
+
+	.input{
+		position: relative;
+		left: 20%;
+		bottom: 10px;
+	}
+
+	.premiere h2{
+		margin-left: 35px;
+	}
+
+}
